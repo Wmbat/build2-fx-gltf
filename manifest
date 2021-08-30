@@ -12,6 +12,8 @@ url: https://github.com/jessey-git/fx-gltf
 package-email: wmbat@protonmail.com
 build-error-email: wmbat@protonmail.com
 
+requires: c++ >= 14
+
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
 

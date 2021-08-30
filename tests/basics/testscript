@@ -1,0 +1,5 @@
+: Test
+
+ln -s $src_base/data/ $~/ ;
+
+$* 2>- != 0
