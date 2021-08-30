@@ -1,0 +1,11 @@
+: 1
+summary: fx-gltf project repository
+
+
+:
+role: prerequisite
+location: https://pkg.cppget.org/1/stable
+
+:
+role: prerequisite
+location: https://github.com/build2-packaging/nlohmann-json.git

@@ -1,0 +1,7 @@
+project = fx-gltf
+
+using version
+using config
+using test
+using install
+using dist

@@ -1,0 +1,19 @@
+: 1
+name: fx-gltf
+version: 1.2.0
+summary: A C++14/C++17 header-only library for simple, efficient, and robust serialization/deserialization of glTF 2.0
+license: MIT
+topics: glTF, serialization, deserialization, header-only
+
+description-file: README.md
+
+url: https://github.com/jessey-git/fx-gltf
+
+package-email: wmbat@protonmail.com
+build-error-email: wmbat@protonmail.com
+
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+
+depends: catch2 >= 2.13.6
+depends: nlohmann-json >= 3.8.0
