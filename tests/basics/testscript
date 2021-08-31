@@ -1,5 +1,4 @@
+
 : Test
-
-ln -s ../data/ ./data/ ;
-
-$* 2>- != 0
+ln -s $src_base/data/ $~/data ;
+$* >- == 0
