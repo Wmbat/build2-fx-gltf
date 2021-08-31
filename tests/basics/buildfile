@@ -1,4 +1,4 @@
 import libs = fx-gltf%lib{fx-gltf}
 import libs += catch2%lib{catch2}
 
-exe{driver}: src/{hxx ixx txx cxx}{**} $libs testscript{**}
+exe{driver}: src/{hxx ixx txx cxx}{**} $libs testscript
