@@ -18,4 +18,4 @@ depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
 
 depends: catch2 >= 2.13.6
-depends: nlohmann-json >= 3.8.0
+depends: nlohmann-json ^3.8.0
